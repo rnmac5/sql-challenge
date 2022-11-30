@@ -31,7 +31,6 @@ CREATE TABLE employees (
 SELECT FROM * employees
 
 --add keys at the end
---PRIMARY KEY(emp_no),
 --FOREIGN KEY(emp_title_id) REFERENCES titles (title_id)
 
 

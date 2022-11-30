@@ -12,7 +12,7 @@ FROM employees
 INNER JOIN salaries ON employees.emp_no = salaries.emp_no;
 
 --Q2.List the first name, last name, and hire date for the employees who were hired in 1986.
---missing dates
+
 
 SELECT
 first_name,
