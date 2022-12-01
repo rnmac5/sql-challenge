@@ -1,14 +1,6 @@
 SQL 2
 
-DROP TABLE departments
-DROP TABLE dept_emp
-DROP TABLE dept_manager
-DROP TABLE employees
-DROP TABLE salaries
-DROP TABLE titles
-
 -- Create table and view column datatypes
---WORKING
 CREATE TABLE departments (
     dept_no VARCHAR,
     dept_name VARCHAR,
@@ -29,7 +21,6 @@ CREATE TABLE employees (
 );
 
 SELECT FROM * employees
-
 --add keys at the end
 --FOREIGN KEY(emp_title_id) REFERENCES titles (title_id)
 
@@ -66,6 +57,7 @@ CREATE TABLE salaries (
 );
 
 SELECT * FROM salaries
+--add back in key
 --FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 
 
